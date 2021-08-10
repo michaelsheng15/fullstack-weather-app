@@ -12,7 +12,6 @@ app.get("/weather", (req, res) => {
     if (error) {
       return res.send(error);
     }
-
     forecast(coord.lat, coord.lon, (error, forecastData) => {
       if (error) {
         return res.send({ error });
