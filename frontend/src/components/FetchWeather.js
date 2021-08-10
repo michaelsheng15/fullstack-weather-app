@@ -66,7 +66,7 @@ export default class FetchWeather extends React.Component {
         </form>
 
         {this.state.loading ? (
-          <h1 className='starter'>Developed by Michael Sheng &copy; 2021</h1>
+          <h1 className="starter">Developed by Michael Sheng &copy; 2021</h1>
         ) : (
           <Container>
             <h3 style={{ textAlign: "left", marginLeft: "20px" }}>
@@ -103,8 +103,7 @@ export default class FetchWeather extends React.Component {
                   </Row>
                 </div>
               </Col>
-              <Col sm={4}>
-              </Col>
+              <Col sm={4}></Col>
             </Row>
             <Row>
               <Col sm={3}>
