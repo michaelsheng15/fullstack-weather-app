@@ -1,0 +1,91 @@
+.current-col {
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  padding: 80px;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+
+  box-shadow: 1px 1px 6px 0px rgba(220, 220, 220, 1);
+  -webkit-box-shadow: 1px 1px 6px 0px rgba(220, 220, 220, 1);
+  -moz-box-shadow: 1px 1px 6px 0px rgba(220, 220, 220, 1);
+}
+
+.current-col div {
+  padding: 20px;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 330;
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: 180;
+}
+
+.current-temp {
+  font-size: 160px;
+  font-weight: 350;
+  padding: 0;
+  margin: 0;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen {
+  height: 100vh;
+}
+
+.form {
+  margin: 20px;
+  padding: 20px;
+}
+
+.current-inner-row {
+  width: 100%;
+}
+
+#description {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: 0;
+}
+
+.screen {
+  display: flex;
+  justify-content: first baseline;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f0f2f7;
+}
+
+#grid {
+  height: 30px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  border-radius: 10px;
+  border: none;
+  padding: 6px;
+}
+
+.starter{
+    margin-top: 10%;
+    color: #cbcdd1;
+}
